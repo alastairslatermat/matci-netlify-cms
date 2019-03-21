@@ -34,4 +34,4 @@ Maybe that Einstein chap had more to offer than just _that_ equation:
 
 > "If I had an hour to solve a problem, I'd spend 55 minutes thinking about the problem and 5 minutes about solutions"
 
-If you're interested in any of the above (or have PhD and ten years experience in predictive modelling and analysis?) please drop me a line alastair.slater@mclaren.com
+If you're interested in any of the above (or have PhD and ten years experience in predictive modelling and analysis?) please drop me a line <mailto:alastair.slater@mclaren.com>
