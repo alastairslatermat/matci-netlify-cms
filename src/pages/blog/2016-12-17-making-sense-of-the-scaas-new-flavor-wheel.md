@@ -1,32 +1,37 @@
 ---
 templateKey: blog-post
-title: Making sense of the SCAA’s new Flavor Wheel
-date: 2016-12-17T15:04:10.000Z
-description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
+title: 'SAP InnovationX 2019, London'
+date: 2019-03-21T11:45:10.000Z
+description: >-
+  It was great to see a broad range of McLaren experience and background
+  represented at SAP's InnovationX event in March - from conference newbies
+  Nikki and Brody, mid-level eventers Gary, Ian and myself, through to
+  perennials The Pauls...and some guy called Andrew Marven.
 tags:
-  - flavor
-  - tasting
+  - SAP InnovationX predictive analytics modeling
 ---
+![SAP InnovationX stage](/img/img_3506.jpg)
 
-![flavor wheel](/img/flavor_wheel.jpg)
+SAP hosted about 1,000 people to hear success stories and in-development innovations from their customers - including McLaren Applied Technologies through the [McLaren Deloitte partnership](http://www.deloitte.co.uk/mclaren/) - arranged over five stages:
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+* CustomerX
+* Growth through disruption
+* Your business. Better. Smarter.  Faster.
+* HumanX
+* Making a difference
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+From the eight talks I listened to across the five main stages, one topic kept emerging:
 
-## What the updates mean to you
+> "Humans make decisions too slowly for real-time data analysis"
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+Data can be fantastic.  It can give you insight into your customer, process, team, company, or whatever you want to measure.  Information is power! BUT, only if you understand it.  If it takes three months to decide how you might improve, why have the overhead of real-time data?
 
-* producers
-* roasters
-* importers/exporters
-* retailers
-* manufacturers
-* baristas
+So, how do you provide actionable insight into your world through data?  Predictive models and analysis.  It should be no secret to IT given our sister companies - it's fundamental to what Racing do, and one of Applied Technologies' core competencies.  Why don't we do it more?  Why isn't it embedded our solutions?  What if this changes - what impact does it make?
 
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
+The talks made me reflect on how I'm approaching a change request.  What caused the user to make the request - what is their actual problem?  I'm not going to pretend I know where to start with predictive modelling and analysis, but it sparked the thought and interest.  I need to track down the knowledgeable people in Racing and MAT, and read up on the topic - and revisit the current solution when I know more.
 
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
+Maybe that Einstein chap had more to offer than just _that_ equation:
 
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+> "If I had an hour to solve a problem, I'd spend 55 minutes thinking about the problem and 5 minutes about solutions"
+
+If you're interested in any of the above (or have PhD and ten years experience in predictive modelling and analysis?) please drop me a line alastair.slater@mclaren.com
