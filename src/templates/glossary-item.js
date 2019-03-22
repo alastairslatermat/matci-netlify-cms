@@ -60,7 +60,7 @@ const GlossaryItem = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | A-Z">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
