@@ -21,6 +21,7 @@ collections:
   - name: "glossary"
     label: "Glossary"
     folder: "src/pages/glossary"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "glossary-item"}
