@@ -17,7 +17,7 @@ class GlossaryItem extends React.Component {
                     {post.frontmatter.title}
                 </h2>
                 <p>
-                  {post.description}
+                  {post.excerpt}
                 </p>
               </article>
             </div>
@@ -45,7 +45,7 @@ export default () => (
         ) {
           edges {
             node {
-              description(pruneLength: 400)
+              excerpt(pruneLength: 400)
               id
               fields {
                 slug
