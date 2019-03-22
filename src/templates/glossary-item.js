@@ -9,7 +9,6 @@ import Content, { HTMLContent } from '../components/Content'
 export const GlossaryItemTemplate = ({
   content,
   contentComponent,
-  description,
   tags,
   title,
   helmet,
@@ -25,7 +24,6 @@ export const GlossaryItemTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <p>{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -49,7 +47,6 @@ export const GlossaryItemTemplate = ({
 GlossaryItemTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
-  description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
 }
@@ -62,13 +59,12 @@ const GlossaryItem = ({ data }) => {
       <GlossaryItemTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        description={post.frontmatter.description}
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
-              content={`${post.frontmatter.description}`}
+              content={`${post.frontmatter.title}`}
             />
           </Helmet>
         }
@@ -93,9 +89,7 @@ export const pageQuery = graphql`
       id
       html
       frontmatter {
-        date(formatString: "DD MMMM YYYY")
         title
-        description
         tags
       }
     }
