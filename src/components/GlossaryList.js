@@ -12,7 +12,7 @@ class GlossaryItem extends React.Component {
         {posts &&
           posts.map(({ node: post }) => (
             <div className="is-parent column is-12" key={post.id}>
-              <article className="tile is-child notification">
+              <article className="tile is-child">
                 <h2>
                     {post.frontmatter.title}
                 </h2>
