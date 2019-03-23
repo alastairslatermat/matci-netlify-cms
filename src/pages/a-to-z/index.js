@@ -30,9 +30,9 @@ export default class BlogIndexPage extends React.Component {
               </div>
             </div> */}
             <div className="content">
-              <h1>A-Z</h1>
+              <h1>A to Z</h1>
               <p>
-                You can search the style guide by:
+                You can search the A to Z by:
                 <ol>
                   {/* <li>Selecting ‘open all’.</li> */}
                   <li>Pressing Ctrl+f on your keyboard if you’re using a PC or ⌘+f if you’re using a Mac.</li>
