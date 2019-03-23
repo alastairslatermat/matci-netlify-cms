@@ -9,7 +9,7 @@ export default class BlogIndexPage extends React.Component {
       <Layout>
         <section className="section">
           <div className="container">
-            <div className="content">
+            {/* <div className="content">
               <div
                 className="full-width-image-container margin-top-0"
                 style={{
@@ -28,6 +28,17 @@ export default class BlogIndexPage extends React.Component {
                   A-Z
                 </h1>
               </div>
+            </div> */}
+            <div className="content">
+              <h1>A-Z</h1>
+              <p>
+                You can search the style guide by:
+                <ol>
+                  {/* <li>Selecting ‘open all’.</li> */}
+                  <li>Pressing Ctrl+f on your keyboard if you’re using a PC or ⌘+f if you’re using a Mac.</li>
+                  <li>Typing the word or search term that you’re looking for.</li>
+                </ol>
+              </p>
             </div>
             <GlossaryItem />
           </div>
