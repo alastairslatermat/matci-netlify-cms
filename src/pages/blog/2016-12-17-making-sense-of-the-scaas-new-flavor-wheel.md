@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'SAP InnovationX 2019, London'
+title: 'SAP InnovationX 2019, London, UK'
 date: 2019-03-21T11:45:10.000Z
 description: >-
   It was great to see a broad range of McLaren experience and background
